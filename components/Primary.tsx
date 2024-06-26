@@ -1,13 +1,16 @@
 import React from 'react';
-import gif from '../files/epic.gif';
+import epicGif from '../files/epic.gif';
 import Image from 'next/image';
+import schema from '../files/schema.png';
+import dbGif from '../files/Stored Procedure Scenario .gif'
+
 //Card component
 const Card1 = () => {
   return (
     <div className='d-flex justify-content-center align-items-center'>
       <div className="card">
         <div className="card-body">
-          <Image className='w-full h-full' src={gif} alt='Epic Dashboard'/>
+          <Image className='w-full h-full' src={epicGif} alt='Epic Dashboard'/>
           <h5 className="card-title">Epic Patient Dashboard</h5>
           <p className="card-text">Our team has partnered with a doctor from Emory 
             to develop an intuitive and user-friendly website tailored for healthcare professionals. 
@@ -27,7 +30,9 @@ const Card2 = () => {
     <div className='d-flex justify-content-center align-items-center'>
       <div className="card">
         <div className="card-body">
-          <Image className='w-full h-full' src={gif} alt='Epic Dashboard'/>
+          <Image className='w-full h-full' src={schema} alt='Relational Schema'/>
+          <Image className='w-full h-full' src={dbGif} alt='Database'/>
+          
           <h5 className="card-title">Package Delivery Management</h5>
           <p className="card-text">This project included creating an Enhanced Entity Relationship Diagram (EERD),
              converting it into a relational schema, 
@@ -54,7 +59,7 @@ const Primary = () => {
           <div className="pb-20 col-md-60">
             <Card1 />
           </div>
-          <div className="pb-20 col-md-6">
+          <div className="pb-20 col-md-60">
             <Card2 />
           </div>
         </div>
