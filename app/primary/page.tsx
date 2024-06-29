@@ -1,3 +1,4 @@
+import Nav from '@/components/Nav';
 import React from 'react';
 
 //Card component
@@ -10,16 +11,16 @@ const Card1 = () => {
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">Epic Patient Dashboard</h5>
-            <p className="card-text">Our team has partnered with a doctor from Emory 
-              to develop an intuitive and user-friendly website tailored for healthcare professionals. 
-              Our primary objective is to streamline user interactions by minimizing the number of clicks 
+            <p className="card-text">Our team has partnered with a doctor from Emory
+              to develop an intuitive and user-friendly website tailored for healthcare professionals.
+              Our primary objective is to streamline user interactions by minimizing the number of clicks
               required to access information.</p>
-              <p>
-                <b>Built with:</b>
-              </p>
-              <p> Next.js, React, Typescript, Bootstrap, Tailwind CSS, Spring Boot</p>
-              <hr />
-              <img className='w-full h-full' src="/files/epic.gif" alt='Epic Dashboard'/>
+            <p>
+              <b>Built with:</b>
+            </p>
+            <p> Next.js, React, Typescript, Bootstrap, Tailwind CSS, Spring Boot</p>
+            <hr />
+            <img className='w-full h-full' src="/files/epic.gif" alt='Epic Dashboard' />
           </div>
         </div>
       </div>
@@ -118,7 +119,7 @@ const Card4 = () => {
 // Primary layout
 const Primary = () => {
   return (
-    <div className="pb-20 pt-10">
+    <><Nav /><div className="pb-20">
       <div className="container">
         <div className="row">
           <div className="pb-20 col-md-60">
@@ -133,7 +134,7 @@ const Primary = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></>
   );
 };
 
