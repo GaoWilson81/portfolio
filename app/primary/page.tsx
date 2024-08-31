@@ -14,7 +14,7 @@ const Card1 = () => {
             <p className="card-text">Our team has partnered with a doctor from Emory
               to develop an intuitive and user-friendly website tailored for healthcare professionals.
               Our primary objective is to streamline user interactions by minimizing the number of clicks
-              required to access information.</p>
+              required to access information. We designed the UI/UX with Figma.</p>
             <p>
               <b>Built with:</b>
             </p>
