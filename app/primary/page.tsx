@@ -3,8 +3,47 @@ import React from 'react';
 
 //Card component
 
-// Project 1
 const Card1 = () => {
+  return (
+    <div className='d-flex justify-content-center align-items-center'>
+      <div className="col-md-6">
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">Buckets</h5>
+            <p className="card-text">This project focuses on analyzing the evolution of 3-point shooting in the NBA and 
+              its strategic impact over 15 years. My team and I collected and processed over a decade of data to uncover 
+              key trends and insights about player performance and league-wide changes. 
+              I designed an interactive shot chart visualization featuring over 100 shot locations for NBA players, 
+              highlighting made and missed attempts. The visualization reveals scoring efficiency by court location 
+              and offers a deeper understanding of how 3-point shooting has evolved over time.
+              This project not only provides detailed insights into player effectiveness but also presents a compelling data 
+              story about the growing influence of 3-point shooting on the game. 
+            </p>
+            <hr />
+            <p className="card-text">
+              <b>View Project:</b>{" "}
+              <a
+                href="https://jerrybiy.github.io/Buckets-an-NBA-3pts-shooting-analysis/#1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none text-primary"
+              >
+                Buckets - Evolution of the 3 Pointer in Modern Basketball
+              </a>
+            </p>
+            <p>
+              <b>Built with:</b>
+            </p>
+            <p> JavaScript, HTML, CSS, D3.js</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Project 1
+const Card2 = () => {
   return (
     <div className='d-flex justify-content-center align-items-center'>
       <div className="col-md-6">
@@ -30,7 +69,7 @@ const Card1 = () => {
 
 <hr />
 // Project 2
-const Card2 = () => {
+const Card3 = () => {
   return (
     <div className='d-flex justify-content-center align-items-center'>
       <div className="col-md-6">
@@ -59,7 +98,7 @@ const Card2 = () => {
 };
 
 // Project 3
-const Card3 = () => {
+const Card4 = () => {
   return (
     <div className='d-flex justify-content-center align-item-center'>
       <div className="col-md-6">
@@ -76,7 +115,7 @@ const Card3 = () => {
                 <p>
                   <b>Built with:</b>
                 </p>
-                <p> Java, Android Studio</p>
+                <p> Java, Android Studio, XML, UML</p>
                 <hr />
               <img className='w-full h-auto' src="/files/frogger demo.gif" alt='Frogger Demo'/>
             </div>
@@ -88,7 +127,7 @@ const Card3 = () => {
 };
 
 // Project 4
-const Card4 = () => {
+const Card5 = () => {
   return (
     <div className='d-flex justify-content-center align-item-center'>
       <div className="col-md-6">
@@ -131,6 +170,8 @@ const Primary = () => {
             <Card3 />
             <hr />
             <Card4 />
+            <hr />
+            <Card5 />
           </div>
         </div>
       </div>
